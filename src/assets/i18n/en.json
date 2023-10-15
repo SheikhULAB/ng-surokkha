@@ -1,0 +1,130 @@
+{
+    "HEADER":{
+      "HOME": "Home",
+      "REGISTRATION": "Registration",
+      "REGISTRATION_PASSPORT": "Registration(Passport)",
+      "STATUS": "Status",
+      "CARD": "Card",
+      "CERTIFICATE": "Certificate",
+      "VERIFY_CERTIFICATE": "Verify Certificate",
+      "MANUAL": "Manual",
+      "FAQ": "FAQ"
+    },
+  
+    "HOME": {
+      "PROCESS": "The process of receiving the Covid-19 corona vaccine",
+      "During_Registration_You_Need": "During Registration You Need",
+      "VACCINE_REGISTRATION": "VACCINE REGISTRATION",
+      "Check_Status": "Check Status",
+      "Vaccine_Card": "Vaccine Card",
+      "Certificate": "Certificate",
+      "FAQ": "FAQ",
+      "Hotline": "Hotline",
+      "National_Call_Centers_Phone_Number": "333",
+      "National_Call_Centers": "National Call Centers",
+      "Health_Portal_Phone_Number": "16263",
+      "Health_Portal": "Health Portal",
+      "IEDCR_Phone_Number": "10655",
+      "IEDCR": "IEDCR",
+      "Telehealth_Phone_Number": "09666777222",
+      "Telehealth": "Covid-19 Telehealth",
+      "All_Call_Centers": "All Call Centers",
+      "Online_Registration": "Online Registration",
+      "Online_Registration_Description": "First, you have to complete the online registration by verifying your national identity card and correct mobile number through this portal.",
+      "SMS_Notification": "SMS Notification",
+      "SMS_Notification_Description": "After registering online, you will receive a text message on your mobile phone mentioning the date of vaccination and the name of the vaccination center.",
+      "Vaccination": "Vaccination",
+      "Vaccination_Description": "Subject to receiving a text message on the mobile phone, you have to appear in person at the vaccination center on the specified date with the vaccine card, national identity card and signed consent form to receive the Covid-19 vaccine.",
+      "Mujib_Header": "Mujib 100",
+      "Mujib": "Mujib 100 Portal",
+      "Mujib_Android_App": "Mujib 100 Android App",
+      "Mujib_IOS_App": "Mujib 100 iOS App"
+    },
+  
+    "REGISTRATION": {
+      "Vaccine_Registration": "Vaccine Registration",
+      "Registration_Description": "Complete the registration by verifying your national identity card and mobile number in the form below. The place and date of delivery of the vaccine will be informed in due course through SMS message on the mobile phone.",
+      "Identity_Verification": "Identity verification",
+      "Select_Type": "Select Type",
+      "NID": "National Identity Card Number:",
+      "DOB": "Date of birth (according to national identity card):"
+    },
+  
+    "REGISTRATION_PASSPORT": {
+      "Registration_Passport": "Registration (Passport)",
+      "Registration_Passport_Description": "Registration (Passport)",
+      "Identity_Verification": "Identity verification:",
+      "Select_Type": "Select Type",
+      "DOB": "Date of birth (according to national identity card):",
+      "Passport_Number": "Passport Number:",
+      "Select_Country": "Select Country"
+    },
+  
+    "STATUS": {
+      "Check_Registration_Status": "Check Registration Status",
+      "Status_Description": "Provide your National Identity Card number and date of birth (according to the National Identity Card) in the form below and click on the \"Verify\" button. An OTP code will be sent via SMS to the mobile number provided at the time of registration. Then, you can see Covid-19 vaccine registration status.",
+      "NID": "National Identity Card Number:",
+      "DOB": "Date of birth (according to national identity card):"
+    },
+  
+    "VACCINE_CARD": {
+      "Vaccine_Card_Download": "Vaccine Card Download",
+      "Download_Your_Vaccine_Card": "Download your Vaccine Card (Passport holder Bangladeshi and Foreigners)",
+      "Vaccine_Card_Description": "Enter your National Identity Card number and date of birth (according to the National Identity Card) in the form below and click on the \"Verify\" button. An OTP code will be sent via SMS to the mobile number provided at the time of registration. Then, you can download the Covid-19 Vaccine Card.",
+      "NID": "National Identity Card Number:",
+      "DOB": "Date of birth (according to national identity card):"
+    },
+  
+    "CERTIFICATE": {
+      "Certificate": "Certificate",
+      "Download_Your_Vaccine_Certificate": "Download Your Vaccine Certificate (Passport holder Bangladeshi and Foreigners)",
+      "Vaccine_Certificate_Description": "Enter your National Identity Card number and date of birth (according to the National Identity Card) in the form below and click on the \"Verify\" button. An OTP code will be sent via SMS to the mobile number provided at the time of registration. Then, you can download the Covid-19 Vaccine Certificate.",
+      "NID": "National Identity Card Number:",
+      "DOB": "Date of birth (according to national identity card):"
+    },
+  
+    "VERIFY_CERTIFICATE": {
+      "Verify_Certificate": "Verify Certificate",
+      "Verify_Certificate_Description": "Vaccination Certificate can be verified by clicking on \"Verify Vaccination Certificate\" button using NID, date of birth and Vaccination Certificate Number.",
+      "Verify_Your_Vaccine_Certificate": "Verify Your Vaccine Certificate (Passport holder Bangladeshi and Foreigners)",
+      "NID": "National Identity Card Number:",
+      "DOB": "Date of birth (according to national identity card):",
+      "Vaccination_Certificate_Number:": "Vaccination Certificate Number:"
+    },
+  
+    "MANUAL": {
+      "Vaccine_Manual": "Vaccine Manual",
+      "Download_User_Manual": "Download User Manual",
+      "Others": "Others",
+      "Vaccine_Card": "VACCINE CARD",
+      "Certificate": "CERTIFICATE",
+      "FAQ": "FAQ",
+      "Manual": "MANUAL"
+    },
+  
+    "FAQ": {
+      "Frequently_Asked_Questions": "Frequently Asked Questions",
+      "Various_Questions": "Various questions and answers related to registration, next steps, receipt of SMS message, receipt of vaccine card, vaccination center, time of vaccination, dose of vaccine, receipt of final certificate etc. can be found in the following section.",
+      "FAQ": "Frequently Asked Questions about Covid-19 Corona Vaccine",
+      "Ques_1": "What to do if OTP is not received at the last step of the registration process?",
+      "Ans_1": "You can resend OTP. If you unfortunately close the OTP providing screen, can re-register.",
+      "Ques_2": "If I want to register for Covid-19 vaccine, how do I register online?",
+      "Ans_2": "You can register by logging on to www.surokkha.gov.bd web portal or by downloading the “Surokkha” app from Google Play Store. See \"Manual\" on the web portal for details.",
+      "Ques_3": "I have registered for the vaccine online, what should I do next? ",
+      "Ans_3": "Download Vaccine Card from www.surokkha.gov.bd web portal. Later, the date and center of the vaccine will be informed via SMS on the mobile phone.",
+      "Ques_4": "How to check the Registration status for Covid-19 vaccine online? ",
+      "Ans_4": "You can know the status of registration by verifying the national identity card and mobile number from the \"Registration Status\" menu on the web portal www.surokkha.gov.bd.",
+      "Ques_5": "How can I get a vaccine card for receiving the Covid-19 vaccine? ",
+      "Ans_5": "You can Download Vaccine Card by verifying National Identity Card and Mobile Number from the \"Vaccine Card Download\" menu at www.surokkha.gov.bd",
+      "Ques_6": "How can I get a vaccine certificate after completion of Covid-19 vaccine? ",
+      "Ans_6": "After completion of two doses of Covid-19 vaccine, you can collect the vaccine certificate by verifying the national identity card and mobile number from the \"Vaccine Certificate Download\" menu at the web portal www.suraksha.gov.bd"
+    },
+  
+    "FOOTER": {
+      "Privacy_Policy": "Privacy Policy",
+      "Terms_Of_Service": "Terms of service",
+      "Other_Affiliates": "Other Affiliates",
+      "Developed_By": "Developed by - Department of ICT",
+      "Affiliates": "Affiliates -"
+    }
+  }

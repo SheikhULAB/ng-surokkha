@@ -1,0 +1,13 @@
+.appStoreText{
+    font-weight: bold;
+    color: rgb(9,39,83);
+  }
+
+  #appStore_part{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  a{
+    text-decoration: none
+  }  

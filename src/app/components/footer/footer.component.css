@@ -1,0 +1,21 @@
+.container-fluid{
+  background-color: rgb(242, 109, 62);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+p{
+  font-size: medium;
+  color: white;
+}
+
+/*@media (min-width: 1000px) {*/
+/*  #affiliates{*/
+/*    white-space: pre;*/
+/*  }*/
+/*}*/
+
+a{
+  color: white;
+  text-decoration: none;
+}

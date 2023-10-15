@@ -1,0 +1,89 @@
+.mat-form-field {
+    margin-top: 16px;
+  }
+  
+  #manual{
+    background-color: rgb(218,237,255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /*for mobile screen*/
+  @media (max-width: 480px) {
+    #national_id_card{
+      margin-bottom: 5px;
+    }
+  }
+  
+  #download{
+    background-color: rgb(255, 243, 225);
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  #download_text{
+    text-decoration: none;
+    color: rgb(9, 39, 83);
+  }
+  
+  #vaccine_card{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(251, 251, 251);
+    border-radius: 20px;
+  }
+  
+  #certificate{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(251, 251, 251);
+    border-radius: 20px;
+  }
+  
+  #manual{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(251, 251, 251);
+    border-radius: 20px;
+  }
+  
+  #faq{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(251, 251, 251);
+    border-radius: 20px;
+  }
+  
+  #vaccine_card:hover{
+    background-color: rgb(254, 255, 218);
+    padding: 30px;
+    transition: 0.5s;
+  }
+  
+  #certificate:hover{
+    background-color: rgb(218, 255, 242);
+    padding: 30px;
+    transition: 0.5s;
+  }
+  
+  #manual:hover{
+    background-color: rgb(218, 237, 255);
+    padding: 30px;
+    transition: 0.5s;
+  }
+  
+  #faq:hover{
+    background-color: rgb(218, 253, 255);
+    padding: 30px;
+    transition: 0.5s;
+  }
+  
+  #other_instruction_manuals{
+    margin-top: 20px;
+  }
+  
+  .text-center{
+    margin-top: 25px;
+  }
+  

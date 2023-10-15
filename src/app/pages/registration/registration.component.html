@@ -1,0 +1,86 @@
+<div id="registration">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" style="text-align: center;"><h2 style="font-weight: bold;">{{'REGISTRATION.Vaccine_Registration' | translate}}</h2></div>
+      <div class="col-md-6" style="text-align: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16" style="transform: rotate(25deg)">
+          <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+          <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+          <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+        </svg>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container" style="margin-bottom: 30px;">
+
+  <p style="margin-top: 20px; font-size: 17px;">{{'REGISTRATION.Registration_Description' | translate}}</p>
+
+  <h2>{{'REGISTRATION.Identity_Verification' | translate}}</h2>
+
+  <div class="row">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12" id="national_id_card">
+        <div class="form-control" style="width: auto;">
+          <p>{{'REGISTRATION.Select_Type' | translate}}</p>
+          <select class="col-lg-2 col-md-2 col-sm-2 form-select" style="margin-left: 5px; margin-right: 5px; width: auto;">
+            <option selected>-- Select --</option>
+            <option value="Foreign National">Citizen Registration (25 & above)</option>
+            <option value="Bangladeshi Workers">Civilian Aircraft</option>
+            <option value="Bangladeshi Students">Government Employees</option>
+            <option value="Bangladeshi Students">Others</option>
+          </select>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-12 col-sm-12" id="passport_input">
+        <div class="form-control">
+          <p>{{'REGISTRATION.NID' | translate}}</p>
+          <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Example: 546 389 7375">
+        </div>
+      </div>
+
+      <div class="col-lg-5 col-md-12 col-sm-12" id="date_of_birth">
+        <div class="form-control">
+          <p>{{'REGISTRATION.DOB' | translate}}</p>
+          <div class="row">
+            <!--          date-->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="margin-left: 5px; margin-right: 5px; width: 80px" [(ngModel)]="selectedDay" name="day">
+              <option value="" disabled selected>Day</option>
+              <option *ngFor="let day of days" [value]="day">{{ day }}</option>
+            </select>
+          
+            <!-- Month -->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="margin-right: 5px; width: 120px" [(ngModel)]="selectedMonth" name="month">
+              <option value="" disabled selected>Month</option>
+              <option *ngFor="let month of months" [value]="month">{{ month }}</option>
+            </select>
+          
+            <!-- Year -->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="width: 100px" [(ngModel)]="selectedYear" name="year">
+              <option value="" disabled selected>Year</option>
+              <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+            </select>
+                    
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="container" style="margin-top: 10px;">
+      <button type="submit" class="btn btn-success col-lg-2 col-md-2 col-sm-2">Verify</button>
+    </div>
+  </div>
+</div>

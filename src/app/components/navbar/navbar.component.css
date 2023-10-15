@@ -1,0 +1,16 @@
+#bangla_button{
+    background-color: rgb(242, 109, 62);
+    color: white;
+  }
+  
+  @media (min-width: 1000px) {
+    #navbarSupportedContent{
+      margin-left: 5%;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    #surokkha_logo{
+      margin-left: 5%;
+    }
+  }

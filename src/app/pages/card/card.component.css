@@ -1,0 +1,16 @@
+.mat-form-field {
+  margin-top: 16px;
+}
+
+#card{
+  background-color: rgb(254,255, 218);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*for mobile screen*/
+@media (max-width: 480px) {
+  #national_id_card{
+    margin-bottom: 5px;
+  }
+}

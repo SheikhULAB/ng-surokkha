@@ -1,0 +1,28 @@
+.mat-form-field {
+  margin-top: 16px;
+}
+
+#registration-pass{
+  background-color: rgb(223,255,218);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*for mobile screen*/
+@media (max-width: 480px) {
+  #national_id_card{
+    margin-bottom: 5px;
+  }
+}
+
+#national_id_card{
+  margin-bottom: 5px;
+}
+
+#passport_input{
+  margin-bottom: 5px;
+}
+
+#select_country{
+  margin-bottom: 5px;
+}

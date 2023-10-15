@@ -1,0 +1,17 @@
+.mat-form-field {
+    margin-top: 16px;
+  }
+  
+  #verify-certificate{
+    background-color: rgb(218,255,242);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /*for mobile screen*/
+  @media (max-width: 480px) {
+    #national_id_card{
+      margin-bottom: 5px;
+    }
+  }
+  

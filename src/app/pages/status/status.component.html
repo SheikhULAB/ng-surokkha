@@ -1,0 +1,61 @@
+<div id="status">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" style="text-align: center;"><h2 style="font-weight: bold;">{{'STATUS.Check_Registration_Status' | translate}}</h2></div>
+      <div class="col-md-6" style="text-align: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
+          <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+          <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+        </svg>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container" style="margin-bottom: 30px;">
+
+  <p style="margin-top: 20px;font-size: 17px;">{{'STATUS.Status_Description' | translate}}</p>
+
+  <div class="row">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12" id="national_id_card" style="margin-bottom: 5px;">
+        <div class="form-control">
+          <p>{{'STATUS.NID' | translate}}</p>
+          <input type="number" class="form-control"  placeholder="NID Number">
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 col-md-12 col-sm-12" id="date_of_birth">
+        <div class="form-control">
+          <p>{{'STATUS.DOB' | translate}}</p>
+          <div class="row">
+            <!--          date-->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="margin-left: 5px; margin-right: 5px; width: 80px" [(ngModel)]="selectedDay" name="day">
+              <option value="" disabled selected>Day</option>
+              <option *ngFor="let day of days" [value]="day">{{ day }}</option>
+            </select>
+          
+            <!-- Month -->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="margin-right: 5px; width: 120px" [(ngModel)]="selectedMonth" name="month">
+              <option value="" disabled selected>Month</option>
+              <option *ngFor="let month of months" [value]="month">{{ month }}</option>
+            </select>
+          
+            <!-- Year -->
+            <select class="col-lg-2 col-md-2 col-sm-1 form-select" style="width: 100px" [(ngModel)]="selectedYear" name="year">
+              <option value="" disabled selected>Year</option>
+              <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+            </select>
+                    
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: 10px;">
+      <button type="submit" class="btn btn-success col-lg-2 col-md-2 col-sm-2">Verify</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,4 @@
+.smaller-image {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+  }
