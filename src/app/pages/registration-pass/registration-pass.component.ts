@@ -30,7 +30,7 @@ export class RegistrationPassComponent {
         console.error('Error fetching country data:', error);
       });
   }
-  
+//git  
   selectedDay: string = ''; // Initialize selectedDay, selectedMonth, and selectedYear with the selected values
   selectedMonth: string = '';
   selectedYear: string = '';
@@ -48,3 +48,4 @@ export class RegistrationPassComponent {
 
   // Define any specific variables or methods for the RegistrationPassComponent if needed
 }
+//git
